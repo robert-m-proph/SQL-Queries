@@ -1,0 +1,46 @@
+NOTE: The SQL file related to this output is cruise_ship_tables_queries.sql
+
+
+SHIP# SHIP_NAME       SHIP_BUILDER    LAUNCH_DA GROSS_WEIGHT
+----- --------------- --------------- --------- ------------
+S1001 Blue_Voyage     MacSam          15-JAN-10        20000
+S1015 Golden_Gate     Parkins         01-MAR-15        35000
+
+
+DIREC FIRST_NAME      LAST_NAME      
+----- --------------- ---------------
+JS001 Robert          Propheter      
+AM001 Robert          Propheter      
+CG001 Robert          Propheter      
+RP001 Robert          Propheter
+
+
+PORT_ COUNTRY              DOCKS PORT_MANAGER_FI PORT_MANAGER_LA
+----- --------------- ---------- --------------- ---------------
+SP1   Spain                   12 Jose            Middle         
+SP2   Spain                    5 Tizzina         Ferlo          
+PR1   Portugal                 3 Joe             Little         
+MX1   Mexico                   8 Camila          Bee            
+MX2   Mexico                   6 Jennifer        Lo             
+IT1   Italy                    9 Sean            Tomack         
+IT2   Italy                    4 Jessy           Bell           
+IT3   Italy                    2 Omer            Hamid 
+
+
+CRUIS SHIP# SHIP_NAME       START_DAT END_DATE  DIREC
+----- ----- --------------- --------- --------- -----
+C20   S1001 Blue_Voyage     15-JAN-18 21-JAN-18 JS001
+C25   S1001 Blue_Voyage     01-FEB-18 07-FEB-18 AM001
+C30   S1015 Golden_Gate     15-MAR-18 25-MAR-18 CG001
+
+
+     STOP# CRUIS PORT_ ARRIVAL_D DEPARTURE
+---------- ----- ----- --------- ---------
+       120 C20   SP1   16-JAN-18 17-JAN-18
+       220 C20   SP2   18-JAN-18 19-JAN-18
+       320 C20   PR1   20-JAN-18 21-JAN-18
+       125 C25   MX1   03-FEB-18 04-FEB-18
+       225 C25   MX2   05-FEB-18 07-FEB-18
+       130 C30   IT1   20-MAR-18 21-MAR-18
+       230 C30   IT2   22-MAR-18 23-MAR-18
+       330 C30   IT3   24-MAR-18 25-MAR-18
